@@ -7,4 +7,16 @@ const randomRestaurant = event => {
     document.querySelector('footer').appendChild(suggest);
 }
 
+const changeColor = event => {
+    event.target.style.backgroundColor = 'black';
+    event.target.style.color = 'white';
+}
+const reverseColor = event => {
+    event.target.style.backgroundColor = 'yellow';
+    event.target.style.color = 'black'
+}
+
 button.addEventListener('click', randomRestaurant);
+button.addEventListener('mouseover', changeColor);
+button.addEventListener('mouseout', reverseColor);
+
