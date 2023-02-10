@@ -7,7 +7,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
+
+
+#navbar {
 	border-bottom: 2px solid orange;
 }
 
@@ -35,4 +37,13 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.favorites {
+	background-color: yellow;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	border: double orange;
+	border-radius: 10px;
 }
